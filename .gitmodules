@@ -1,0 +1,6 @@
+[submodule "hunt_internal/utils/libraries/minhook"]
+	path = hunt_internal/utils/libraries/minhook
+	url = https://github.com/TsudaKageyu/minhook.git
+[submodule "hunt_internal/utils/libraries/lazy_importer"]
+	path = hunt_internal/utils/libraries/lazy_importer
+	url = https://github.com/JustasMasiulis/lazy_importer.git

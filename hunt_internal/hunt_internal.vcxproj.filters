@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="hunt.cpp" />
+    <ClCompile Include="utils\utils.cpp" />
+    <ClCompile Include="cry_engine\sdk.cpp" />
+    <ClCompile Include="hooks\hooks.cpp" />
+    <ClCompile Include="utils\libraries\minhook\src\hde\hde32.c" />
+    <ClCompile Include="utils\libraries\minhook\src\hde\hde64.c" />
+    <ClCompile Include="utils\libraries\minhook\src\buffer.c" />
+    <ClCompile Include="utils\libraries\minhook\src\hook.c" />
+    <ClCompile Include="utils\libraries\minhook\src\trampoline.c" />
+    <ClCompile Include="menu\d3d11\d3d11.cpp" />
+    <ClCompile Include="menu\menu.cpp" />
+    <ClCompile Include="utils\libraries\imgui\imgui.cpp" />
+    <ClCompile Include="utils\libraries\imgui\imgui_draw.cpp" />
+    <ClCompile Include="utils\libraries\imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="utils\libraries\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="utils\libraries\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="hooks\wndproc\wndproc.cpp" />
+    <ClCompile Include="hooks\present\present.cpp" />
+    <ClCompile Include="cry_engine\cry_entity_system\entity.cpp" />
+    <ClCompile Include="features\features.cpp" />
+    <ClCompile Include="features\esp\esp.cpp" />
+    <ClCompile Include="cry_engine\cry_renderer\renderer.cpp" />
+    <ClCompile Include="hunt\bones\bones.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="utils\utils.h" />
+    <ClInclude Include="utils\libraries\min_hook\hde\hde32.h" />
+    <ClInclude Include="utils\libraries\min_hook\hde\hde64.h" />
+    <ClInclude Include="utils\libraries\min_hook\hde\pstdint.h" />
+    <ClInclude Include="utils\libraries\min_hook\hde\table32.h" />
+    <ClInclude Include="utils\libraries\min_hook\hde\table64.h" />
+    <ClInclude Include="utils\libraries\min_hook\buffer.h" />
+    <ClInclude Include="utils\libraries\min_hook\trampoline.h" />
+    <ClInclude Include="cry_engine\sdk.h" />
+    <ClInclude Include="hooks\hooks.h" />
+    <ClInclude Include="cry_engine\math\vector.h" />
+    <ClInclude Include="cry_engine\math\vector_2d.h" />
+    <ClInclude Include="cry_engine\math\matrix.h" />
+    <ClInclude Include="utils\libraries\minhook\include\MinHook.h" />
+    <ClInclude Include="utils\libraries\minhook\src\hde\hde32.h" />
+    <ClInclude Include="utils\libraries\minhook\src\hde\hde64.h" />
+    <ClInclude Include="utils\libraries\minhook\src\hde\pstdint.h" />
+    <ClInclude Include="utils\libraries\minhook\src\hde\table32.h" />
+    <ClInclude Include="utils\libraries\minhook\src\hde\table64.h" />
+    <ClInclude Include="utils\libraries\minhook\src\buffer.h" />
+    <ClInclude Include="utils\libraries\minhook\src\trampoline.h" />
+    <ClInclude Include="menu\d3d11\d3d11.h" />
+    <ClInclude Include="menu\menu.h" />
+    <ClInclude Include="menu\variables.h" />
+    <ClInclude Include="utils\libraries\imgui\imconfig.h" />
+    <ClInclude Include="utils\libraries\imgui\imgui.h" />
+    <ClInclude Include="utils\libraries\imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="utils\libraries\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="utils\libraries\imgui\imgui_internal.h" />
+    <ClInclude Include="utils\libraries\imgui\imstb_rectpack.h" />
+    <ClInclude Include="utils\libraries\imgui\imstb_textedit.h" />
+    <ClInclude Include="utils\libraries\imgui\imstb_truetype.h" />
+    <ClInclude Include="utils\libraries\imgui\shaders.h" />
+    <ClInclude Include="cry_engine\cry_renderer\renderer.h" />
+    <ClInclude Include="cry_engine\cry_game\game_framwork.h" />
+    <ClInclude Include="cry_engine\cry_entity_system\entity_system.h" />
+    <ClInclude Include="cry_engine\cry_entity_system\entity.h" />
+    <ClInclude Include="cry_engine\math\quat.h" />
+    <ClInclude Include="features\features.h" />
+    <ClInclude Include="cry_engine\cry_animation\cry_animation.h" />
+    <ClInclude Include="utils\libraries\xor.h" />
+    <ClInclude Include="hunt\bones\bones.h" />
+  </ItemGroup>
+</Project>
